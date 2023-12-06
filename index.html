@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=general-sans@1,2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/modern-normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/profile.css" />
+    <link rel="stylesheet" href="./styles/stack.css" />
+    <link rel="icon" href="https://fav.farm/🔥" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.7.3/src/app/ci.min.css"
+    />
+    <script src="./main.js" type="module"></script>
+    <title>Homepage</title>
+  </head>
+
+  <body>
+    <header class="container">
+      <span class="header__logo">yogi.dev</span>
+
+      <div class="header__side">
+        <nav role="list">
+          <ul class="header__list">
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <ul class="header__icons">
+          <li class="header__moon"><img src="/public/moon.svg" alt="" /></li>
+          <li class="header__sun visible">
+            <img src="/public/sun.svg" alt="" />
+          </li>
+          <li class="header__menu visible">
+            <img src="/public/menu.svg" alt="" />
+          </li>
+          <li class="header__close">
+            <img src="/public/x.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="container">
+      <section class="profile">
+        <span class="profile__greet"
+          >Hi<img
+            class="profile__hand"
+            src="/public/Hand.gif"
+            alt=""
+          />,&ThinSpace; I'm <span class="profile__name">Yogesh</span> <br />I'm
+          a <span class="profile__desc">Developer </span></span
+        ><img
+          class="profile__pic"
+          src="/public/profile.jpg"
+          alt="profile picture"
+        />
+
+        <span class="profile__motto"
+          >I aim to revolutionize the app market by creating top-tier
+          open-source alternatives for popular apps</span
+        >
+        <ul class="profile__socials">
+          <li>
+            <a href=""><i class="ci ci-github ci-2x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ci ci-instagram ci-2x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ci ci-reddit ci-2x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ci ci-youtube ci-2x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ci ci-whatsapp ci-2x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ci ci-telegram ci-2x"></i></a>
+          </li>
+        </ul>
+      </section>
+      <section class="stack">
+        <p class="stack__desc">I'm quite fluent in</p>
+        <ul class="stack__list">
+          <li><img src="/public/javascript.svg" alt="" /></li>
+          <li><img src="/public/html-5.svg" alt="" /></li>
+          <li><img src="/public/css-3.svg" alt="" /></li>
+          <li><img src="/public/react.svg" alt="" /></li>
+          <li><img src="/public/firebase.svg" alt="" /></li>
+          <li><img src="/public/graphql.svg" alt="" /></li>
+          <li><img src="/public/vitejs.svg" alt="" /></li>
+          <li><img src="/public/python.svg" alt="" /></li>
+          <li><img src="/public/bash-icon.svg" alt="" /></li>
+          <li><img src="/public/linux-tux.svg" alt="" /></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

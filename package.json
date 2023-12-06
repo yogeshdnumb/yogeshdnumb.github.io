@@ -1,0 +1,17 @@
+{
+  "name": "homepage",
+  "version": "0.0.0",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "dependencies": {
+    "@catppuccin/palette": "^0.2.0"
+  }
+}
